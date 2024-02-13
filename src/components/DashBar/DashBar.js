@@ -23,6 +23,7 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Home from "../Home/Home";
 import Graphs from "../Graphs/Graps";
+import History from "../History/History";
 
 const drawerWidth = 240;
 
@@ -193,7 +194,7 @@ export default function DashBar() {
         )}
         {selectedItem === "Historial" && (
           
-          <Typography paragraph>Content for Historial selected.</Typography>
+          <History />
         )}
       </Main>
     </Box>
